@@ -1,0 +1,6 @@
+Coroutines,  run on a shared pool of threads by default, and the same thread can run many coroutines.
+As fewer threads are used, this makes it more efficient to use coroutines when you want to run tasks asynchronously.
+
+same thread can run different co-routines and hence its much more efficient than running threads.
+
+run blocking runs coroutines on the same thread.
